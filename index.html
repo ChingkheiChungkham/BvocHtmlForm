@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <h1>Wiztoonz Cyber Alert Workshop</h1>
+    <form method="post" action="www.google.com">
+      <label for="fname">First Name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+
+      <label for="lname">Last Name:</label><br />
+      <input type="text" id="fname" /><br />
+
+      <label for="email">Email ID:</label><br />
+      <input type="email" id="email" /><br />
+
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" /><br />
+
+      <label for="phone">Phone Number:</label><br />
+      <input type="text" id="phone" /><br />
+
+      <p>Please Select your Gender:</p>
+
+      <!-- RADIO  -->
+      <div>
+        <input type="radio" id="male" name="gender" value="male" checked />
+        <label for="male">Male</label>
+      </div>
+
+      <div>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+
+      <br />
+      <br />
+      <!-- DROPDOWN -->
+      <label for="state">Select Your State:</label>
+      <br />
+      <select name="state" id="state">
+        <option value="Delhi">Delhi</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Rajasthan">Rajasthan</option>
+      </select>
+
+      <br />
+      <br />
+
+      <!-- TEXT AREA -->
+      <label for="about">About You:</label> <br />
+      <textarea id="about" name="about" rows="4" cols="50"> </textarea>
+
+      <br />
+      <br />
+
+      <input type="reset" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
